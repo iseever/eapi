@@ -1,0 +1,122 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.e17apidemo.MainActivity" >
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/KeyStatus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="钥匙状态：" />
+
+            <TextView
+                android:id="@+id/txt_KeyStatus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/speed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="车速：" />
+
+            <TextView
+                android:id="@+id/txt_speed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0km/h" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/mileage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="里程：" />
+
+            <TextView
+                android:id="@+id/txt_mileage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0km" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/routetype"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="道路类型：" />
+
+            <TextView
+                android:id="@+id/txt_routetype"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/productModel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="型号：" />
+
+            <TextView
+                android:id="@+id/txt_productModel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/reflesh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:text="获取型号" />
+
+</LinearLayout>
